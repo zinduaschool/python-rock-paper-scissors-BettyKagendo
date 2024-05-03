@@ -18,3 +18,8 @@ computer_choice = choice (['rock', 'paper', 'scissors'])
 
 #Get user_choice 
 user_choice = input ("Please enter 'rock', 'paper', or 'scissors': ")
+
+# Calling the result
+result = game_winner(computer_choice, user_choice)
+    
+print(result)
