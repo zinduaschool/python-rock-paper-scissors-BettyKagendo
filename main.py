@@ -12,3 +12,9 @@ def game_winner(computer_choice , user_choice):
        return f'computer chose {computer_choice}. computer wins!'
     else:
         return f'computer chose {computer_choice}. user wins!' 
+    
+#Get computer_choice
+computer_choice = choice (['rock', 'paper', 'scissors'])
+
+#Get user_choice 
+user_choice = input ("Please enter 'rock', 'paper', or 'scissors': ")
