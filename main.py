@@ -1,1 +1,3 @@
-#Type in your code here
+
+#import choice from python library
+from random import choice
