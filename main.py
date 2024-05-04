@@ -55,7 +55,9 @@ def play_game (max_rounds):
         
         print(f"score: You {user_score} - computer {computer_score}")
 
-        
+        if user_score == max_rounds // 2 + 1 or computer_score == max_rounds // 2 + 1:
+            break
+ 
         if user_score > computer_score:
             print('congratulations! You win the game')
         elif user_score < computer_score:
