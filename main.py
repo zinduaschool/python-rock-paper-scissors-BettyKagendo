@@ -2,6 +2,9 @@
 #import choice from python library
 from random import choice
 
+#define the choices
+choices = ['rock', 'paper', 'scissors']
+
 #defining a function and rules of the game
 def game_winner(computer_choice , user_choice):
     if computer_choice == user_choice:
@@ -23,3 +26,4 @@ user_choice = input ("Please enter 'rock', 'paper', or 'scissors': ")
 result = game_winner(computer_choice, user_choice)
     
 print(result)
+
